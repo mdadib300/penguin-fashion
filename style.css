@@ -31,16 +31,19 @@ nav {
 }
 
 /* banner */
-#banner {
+#banner-image-div {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#banner-text-div {
+    padding: 20px;
 }
 
 #banner-img {
-    height: 480px;
-    width: 525px;
+    height: 330px;
+    width: 350px;
 }
 
 button {
@@ -52,7 +55,7 @@ button {
     color: white;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(23, 38, 175);
 }
 
@@ -149,11 +152,29 @@ footer {
 
 
 /* Media queries */
+
+/* Mobile phone */
 @media only screen and (max-width: 480px) {
-    nav{
+    nav {
         padding: 20px;
     }
+
     .nav-item {
         display: none;
     }
-  }
+}
+
+/* Laptop and Desktop */
+@media only screen and (min-width: 769px) {
+    #banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    #banner-img {
+        height: 500px;
+        width: 530px;
+    }
+}
