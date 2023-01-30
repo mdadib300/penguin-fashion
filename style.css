@@ -13,7 +13,7 @@ header {
 
 /* navbar */
 nav {
-    padding: 40px 135px 40px 135px;
+    padding: 40px 135px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,7 @@ nav {
 
 .nav-item {
     text-decoration: none;
-    margin-left: 55px;
+    margin-left: 50px;
     color: black;
 }
 
@@ -58,8 +58,6 @@ button {
 button:hover {
     background-color: rgb(23, 38, 175);
 }
-
-/* main */
 
 /* casual and formal */
 
@@ -126,7 +124,7 @@ button:hover {
     height: 135px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .about-card-image {
@@ -150,10 +148,14 @@ footer {
 }
 
 
-/* Media queries */
+/***** Media queries *****/
 
 /* Mobile phone */
 @media only screen and (max-width: 480px) {
+    header {
+        padding-bottom: 50px;
+    }
+
     nav {
         padding: 20px;
     }
@@ -164,6 +166,7 @@ footer {
 
     .products-section {
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     .products-heading {
@@ -184,6 +187,27 @@ footer {
     .product-image {
         width: 290px;
         height: 310px;
+    }
+
+    #about-image {
+        height: 173px;
+        width: 290px;
+        margin-bottom: 50px;
+    }
+
+    #about-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .about-card {
+        flex-direction: column;
+        justify-content: center;
+        width: 280px;
+        height: 250px;
+        padding: 0 20px;
     }
 
 }
