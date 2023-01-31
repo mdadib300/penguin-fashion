@@ -1,11 +1,9 @@
-#This project is in progress. (To make it Responsive)
-
 # PENGUIN FASHION
 
-Made with HTML, HTML5, CSS, CSS3.
+Made with HTML, HTML5, CSS and CSS3.
 
 No framework is used.
 
-Project idea from - Programming Hero.
+Responsive for Mobile phone, laptop and desktop.
 
 Live website link: https://mdadib300.github.io/penguin-fashion/
